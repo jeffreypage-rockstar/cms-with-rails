@@ -1,28 +1,19 @@
-== README
+== BizGo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here is how to get this app up and running.
 
-Things you may want to cover:
+Things you need or may want:
 
-* Ruby version
+* Ruby 2.1.3 (Install using <tt>rvm</tt>)
 
-* System dependencies
+* Postgres 9.3
 
-* Configuration
+* Bundler
 
-* Database creation
+* Foreman
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+Once all requirements are set up, run <tt>cat .env-example > .env</tt> the <tt>rake db:create</tt> 
+then <tt>rake db:migrate</tt> then <tt>foreman start</tt>
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
