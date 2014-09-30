@@ -43,6 +43,10 @@ gem 'inherited_resources', github: 'jrumbut/inherited_resources', branch: 'rails
 gem 'devise', git: 'https://github.com/plataformatec/devise.git', :branch => 'lm-rails-4-2'
 gem 'activeadmin', github: 'activeadmin'
 
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

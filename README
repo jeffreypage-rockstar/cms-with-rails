@@ -14,6 +14,3 @@ Things you need or may want:
 
 Once all requirements are set up, run `cat .env-example > .env` the `rake db:create` 
 then `rake db:migrate` then `foreman start`
-
-Please feel free to use a different markup language if you do not plan to run
-`rake doc:app`.
