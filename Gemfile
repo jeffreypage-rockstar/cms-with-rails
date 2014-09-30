@@ -35,6 +35,13 @@ gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#
+
+
+gem 'inherited_resources', github: 'jrumbut/inherited_resources', branch: 'rails_4_2'
+#ActiveAdmin for admin functionality
+gem 'devise', git: 'https://github.com/plataformatec/devise.git', :branch => 'lm-rails-4-2'
+gem 'activeadmin', github: 'activeadmin'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
