@@ -1,0 +1,25 @@
+<%= form_for(@merchant_follower) do |f| %>
+  <% if @merchant_follower.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@merchant_follower.errors.count, "error") %> prohibited this merchant_follower from being saved:</h2>
+
+      <ul>
+      <% @merchant_follower.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :merchant_id %><br>
+    <%= f.text_field :merchant_id %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

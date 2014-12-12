@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Merchant Followers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Merchant</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @merchant_followers.each do |merchant_follower| %>
+      <tr>
+        <td><%= merchant_follower.merchant %></td>
+        <td><%= merchant_follower.user %></td>
+        <td><%= link_to 'Show', merchant_follower %></td>
+        <td><%= link_to 'Edit', edit_merchant_follower_path(merchant_follower) %></td>
+        <td><%= link_to 'Destroy', merchant_follower, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Merchant follower', new_merchant_follower_path %>

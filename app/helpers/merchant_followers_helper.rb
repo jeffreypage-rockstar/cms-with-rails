@@ -1,0 +1,2 @@
+module MerchantFollowersHelper
+end

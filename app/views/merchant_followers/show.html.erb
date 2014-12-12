@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Merchant:</strong>
+  <%= @merchant_follower.merchant %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @merchant_follower.user %>
+</p>
+
+<%= link_to 'Edit', edit_merchant_follower_path(@merchant_follower) %> |
+<%= link_to 'Back', merchant_followers_path %>

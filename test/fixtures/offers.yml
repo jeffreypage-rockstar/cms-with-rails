@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  description: MyText
+  points: 1
+  merchant_id: 
+
+two:
+  title: MyText
+  description: MyText
+  points: 1
+  merchant_id: 

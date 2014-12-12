@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  offer_id: 
+  user_id: 
+  is_accepted: false
+  datetime_accepted: 2014-12-12 06:30:41
+  is_redeemed: false
+  datetime_redeemed: 
+
+two:
+  offer_id: 
+  user_id: 
+  is_accepted: false
+  datetime_accepted: 2014-12-12 06:30:41
+  is_redeemed: false
+  datetime_redeemed: 

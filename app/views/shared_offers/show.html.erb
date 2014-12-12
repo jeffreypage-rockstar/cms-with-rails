@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Offer:</strong>
+  <%= @shared_offer.offer %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @shared_offer.user %>
+</p>
+
+<p>
+  <strong>Is accepted:</strong>
+  <%= @shared_offer.is_accepted %>
+</p>
+
+<p>
+  <strong>Datetime accepted:</strong>
+  <%= @shared_offer.datetime_accepted %>
+</p>
+
+<p>
+  <strong>Is redeemed:</strong>
+  <%= @shared_offer.is_redeemed %>
+</p>
+
+<p>
+  <strong>Datetime redeemed:</strong>
+  <%= @shared_offer.datetime_redeemed %>
+</p>
+
+<%= link_to 'Edit', edit_shared_offer_path(@shared_offer) %> |
+<%= link_to 'Back', shared_offers_path %>

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0.beta2'
+gem 'rails', '4.2.0'
 # Don't Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
@@ -38,7 +38,8 @@ gem 'unicorn'
 #
 
 
-gem 'inherited_resources', github: 'jrumbut/inherited_resources', branch: 'rails_4_2'
+#gem 'responders'
+gem 'inherited_resources' #, github: 'jrumbut/inherited_resources', branch: 'rails_4_2'
 #ActiveAdmin for admin functionality
 gem 'devise', git: 'https://github.com/plataformatec/devise.git', :branch => 'lm-rails-4-2'
 gem 'activeadmin', github: 'activeadmin'
@@ -46,6 +47,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
+gem 'carrierwave', git: 'https://github.com/carrierwaveuploader/carrierwave', branch: 'master'
+
+gem 'geocoder'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
